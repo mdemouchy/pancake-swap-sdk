@@ -1,14 +1,17 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@mdemouchy/sdk",
   "license": "MIT",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "🛠 An SDK for building applications on top of Pancakeswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/mdemouchy/pancake-swap-sdk.git",
   "keywords": [
     "pancakeswap",
     "bsc"
